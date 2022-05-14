@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_7" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="61L-rW-raO">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,20 +13,20 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Team_Search" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcomeScreen" translatesAutoresizingMaskIntoConstraints="NO" id="ni3-2Y-xSp">
-                                <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo2" translatesAutoresizingMaskIntoConstraints="NO" id="Kun-BM-dxa">
-                                <rect key="frame" x="114" y="54.000000000000007" width="200" height="85.666666666666686"/>
+                                <rect key="frame" x="107" y="54" width="200" height="65"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="Mg4-Du-6FT"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GO ALL IN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MbB-CM-G04">
-                                <rect key="frame" x="64" y="179.66666666666666" width="300" height="81.999999999999972"/>
+                                <rect key="frame" x="57" y="159" width="300" height="82"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="i4x-tI-0pm"/>
                                 </constraints>
@@ -35,13 +35,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GO TO THE GAME" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iAB-kt-iXL">
-                                <rect key="frame" x="69" y="261.66666666666669" width="290" height="46"/>
+                                <rect key="frame" x="62" y="241" width="290" height="46"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="33"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find a team in your city &amp; get better" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="erK-Ay-o68">
-                                <rect key="frame" x="69" y="338" width="290" height="80"/>
+                                <rect key="frame" x="62" y="317.5" width="290" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="CpX-89-OUW"/>
                                 </constraints>
@@ -50,7 +50,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Jg-km-ZTX" customClass="BorderButton" customModule="Team_Search" customModuleProvider="target">
-                                <rect key="frame" x="64" y="822" width="300" height="50"/>
+                                <rect key="frame" x="20" y="792" width="374" height="50"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.49588116496598639" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="3Mj-8x-wDx"/>
@@ -74,14 +74,15 @@
                             <constraint firstAttribute="bottom" secondItem="ni3-2Y-xSp" secondAttribute="bottom" id="IqI-dE-DUv"/>
                             <constraint firstItem="Kun-BM-dxa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="R1C-Zg-wpC"/>
                             <constraint firstItem="iAB-kt-iXL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TgN-ps-Wyy"/>
-                            <constraint firstItem="0Jg-km-ZTX" firstAttribute="width" secondItem="MbB-CM-G04" secondAttribute="width" id="W1E-Ot-sBH"/>
                             <constraint firstItem="MbB-CM-G04" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fdt-TS-QnI"/>
                             <constraint firstItem="iAB-kt-iXL" firstAttribute="width" secondItem="MbB-CM-G04" secondAttribute="width" multiplier="0.966667" id="g3b-w4-65E"/>
                             <constraint firstItem="erK-Ay-o68" firstAttribute="top" secondItem="iAB-kt-iXL" secondAttribute="bottom" constant="30.333333333333314" id="gry-vT-NO0"/>
                             <constraint firstItem="Kun-BM-dxa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mKb-V6-0ow"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0Jg-km-ZTX" secondAttribute="trailing" constant="20" id="oQR-L9-vMg"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0Jg-km-ZTX" secondAttribute="bottom" constant="20" id="rMO-xG-T1i"/>
                             <constraint firstItem="erK-Ay-o68" firstAttribute="width" secondItem="iAB-kt-iXL" secondAttribute="width" id="sga-U7-ao5"/>
                             <constraint firstAttribute="trailing" secondItem="ni3-2Y-xSp" secondAttribute="trailing" id="vZa-Vd-BXN"/>
+                            <constraint firstItem="0Jg-km-ZTX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="xKn-sS-btE"/>
                         </constraints>
                     </view>
                     <connections>
@@ -98,72 +99,82 @@
             <objects>
                 <viewController id="61L-rW-raO" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Woh-Bl-2Tp">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="desiredLeague" translatesAutoresizingMaskIntoConstraints="NO" id="aaV-dl-2c3">
-                                <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Logo2" translatesAutoresizingMaskIntoConstraints="NO" id="sSb-U5-3HB">
-                                <rect key="frame" x="114" y="57" width="200" height="85.666666666666686"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="n6F-OY-74P"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Desired League:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5kU-jz-XBJ">
-                                <rect key="frame" x="69" y="150" width="290" height="80"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="k4d-tr-3Sv"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="26"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o5O-h4-rpL" customClass="BorderButton" customModule="Team_Search" customModuleProvider="target">
-                                <rect key="frame" x="64" y="305" width="300" height="50"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.49588116500000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="PeD-su-VuU"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="27"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Mens">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0SJ-7d-my9" customClass="BorderButton" customModule="Team_Search" customModuleProvider="target">
-                                <rect key="frame" x="59" y="374" width="300" height="50"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.49588116500000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="Gh6-9A-A5V"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="27"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Womens">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FtF-Sm-vw4" customClass="BorderButton" customModule="Team_Search" customModuleProvider="target">
-                                <rect key="frame" x="59" y="438" width="300" height="50"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.49588116500000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="zfm-wQ-lav"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="27"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Co-ed">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Si8-3l-fHU" customClass="BorderButton" customModule="Team_Search" customModuleProvider="target">
-                                <rect key="frame" x="64" y="809" width="300" height="50"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="mhV-8B-Pac">
+                                <rect key="frame" x="107" y="54" width="200" height="152"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo2" translatesAutoresizingMaskIntoConstraints="NO" id="sSb-U5-3HB">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="65"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="n6F-OY-74P"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Desired League:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5kU-jz-XBJ">
+                                        <rect key="frame" x="4" y="72" width="192" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="k4d-tr-3Sv"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="26"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="8JC-dD-ug0">
+                                <rect key="frame" x="20" y="236" width="374" height="190"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o5O-h4-rpL" customClass="BorderButton" customModule="Team_Search" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="50"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.49588116500000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="PeD-su-VuU"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="27"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Mens">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0SJ-7d-my9" customClass="BorderButton" customModule="Team_Search" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="70" width="374" height="50"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.49588116500000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="Gh6-9A-A5V"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="27"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Womens">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FtF-Sm-vw4" customClass="BorderButton" customModule="Team_Search" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="140" width="374" height="50"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.49588116500000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="zfm-wQ-lav"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="27"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Co-ed">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Si8-3l-fHU" customClass="BorderButton" customModule="Team_Search" customModuleProvider="target">
+                                <rect key="frame" x="20" y="792" width="374" height="50"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.49588116500000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="8oP-fb-Hx9"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="27"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="GET STARTED">
+                                <state key="normal" title="Next">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
@@ -175,6 +186,14 @@
                             <constraint firstItem="aaV-dl-2c3" firstAttribute="top" secondItem="Woh-Bl-2Tp" secondAttribute="top" id="4e0-8w-c7y"/>
                             <constraint firstItem="aaV-dl-2c3" firstAttribute="leading" secondItem="Woh-Bl-2Tp" secondAttribute="leading" id="92E-wM-feY"/>
                             <constraint firstAttribute="bottom" secondItem="aaV-dl-2c3" secondAttribute="bottom" id="I2G-QV-iGx"/>
+                            <constraint firstItem="Si8-3l-fHU" firstAttribute="leading" secondItem="p91-ZL-etX" secondAttribute="leading" constant="20" id="IGB-zk-XJC"/>
+                            <constraint firstItem="p91-ZL-etX" firstAttribute="trailing" secondItem="8JC-dD-ug0" secondAttribute="trailing" constant="20" id="NMT-23-tnc"/>
+                            <constraint firstItem="p91-ZL-etX" firstAttribute="bottom" secondItem="Si8-3l-fHU" secondAttribute="bottom" constant="20" id="a7v-Yu-8de"/>
+                            <constraint firstItem="8JC-dD-ug0" firstAttribute="top" secondItem="mhV-8B-Pac" secondAttribute="bottom" constant="30" id="dS2-4S-Pjt"/>
+                            <constraint firstItem="mhV-8B-Pac" firstAttribute="top" secondItem="p91-ZL-etX" secondAttribute="top" constant="10" id="ePj-S2-W7y"/>
+                            <constraint firstItem="p91-ZL-etX" firstAttribute="trailing" secondItem="Si8-3l-fHU" secondAttribute="trailing" constant="20" id="iwx-ve-A1Y"/>
+                            <constraint firstItem="8JC-dD-ug0" firstAttribute="leading" secondItem="p91-ZL-etX" secondAttribute="leading" constant="20" id="nE7-vR-4bS"/>
+                            <constraint firstItem="mhV-8B-Pac" firstAttribute="centerX" secondItem="Woh-Bl-2Tp" secondAttribute="centerX" id="sv9-oy-8It"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -184,9 +203,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Logo2" width="467.33334350585938" height="85.666664123535156"/>
-        <image name="desiredLeague" width="414" height="736"/>
-        <image name="welcomeScreen" width="414" height="736"/>
+        <image name="Logo2" width="351" height="65"/>
+        <image name="desiredLeague" width="410" height="729"/>
+        <image name="welcomeScreen" width="410" height="729"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
