@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="61L-rW-raO">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JJv-3K-pVa">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,20 +13,20 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Team_Search" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcomeScreen" translatesAutoresizingMaskIntoConstraints="NO" id="ni3-2Y-xSp">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo2" translatesAutoresizingMaskIntoConstraints="NO" id="Kun-BM-dxa">
-                                <rect key="frame" x="107" y="54" width="200" height="65"/>
+                                <rect key="frame" x="95" y="54.000000000000007" width="200" height="85.666666666666686"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="Mg4-Du-6FT"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GO ALL IN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MbB-CM-G04">
-                                <rect key="frame" x="57" y="159" width="300" height="82"/>
+                                <rect key="frame" x="45" y="179.66666666666666" width="300" height="81.999999999999972"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="i4x-tI-0pm"/>
                                 </constraints>
@@ -35,13 +35,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GO TO THE GAME" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iAB-kt-iXL">
-                                <rect key="frame" x="62" y="241" width="290" height="46"/>
+                                <rect key="frame" x="50" y="261.66666666666669" width="290" height="46"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="33"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find a team in your city &amp; get better" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="erK-Ay-o68">
-                                <rect key="frame" x="62" y="317.5" width="290" height="80"/>
+                                <rect key="frame" x="50" y="338" width="290" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="CpX-89-OUW"/>
                                 </constraints>
@@ -50,7 +50,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Jg-km-ZTX" customClass="BorderButton" customModule="Team_Search" customModuleProvider="target">
-                                <rect key="frame" x="20" y="792" width="374" height="50"/>
+                                <rect key="frame" x="20" y="740" width="350" height="50"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.49588116496598639" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="3Mj-8x-wDx"/>
@@ -66,7 +66,6 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="ni3-2Y-xSp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="068-5r-g6e"/>
-                            <constraint firstItem="0Jg-km-ZTX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="43U-v1-4kz"/>
                             <constraint firstItem="erK-Ay-o68" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="583-fz-S2E"/>
                             <constraint firstItem="ni3-2Y-xSp" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="AJR-Kk-pFI"/>
                             <constraint firstItem="MbB-CM-G04" firstAttribute="top" secondItem="Kun-BM-dxa" secondAttribute="bottom" constant="40" id="CBw-bB-ELo"/>
@@ -99,23 +98,23 @@
             <objects>
                 <viewController id="61L-rW-raO" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Woh-Bl-2Tp">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="desiredLeague" translatesAutoresizingMaskIntoConstraints="NO" id="aaV-dl-2c3">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="mhV-8B-Pac">
-                                <rect key="frame" x="107" y="54" width="200" height="152"/>
+                                <rect key="frame" x="95" y="53.999999999999986" width="200" height="172.66666666666663"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo2" translatesAutoresizingMaskIntoConstraints="NO" id="sSb-U5-3HB">
-                                        <rect key="frame" x="0.0" y="0.0" width="200" height="65"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="85.666666666666671"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="200" id="n6F-OY-74P"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Desired League:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5kU-jz-XBJ">
-                                        <rect key="frame" x="4" y="72" width="192" height="80"/>
+                                        <rect key="frame" x="4" y="92.666666666666657" width="192" height="80"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="80" id="k4d-tr-3Sv"/>
                                         </constraints>
@@ -126,10 +125,10 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="8JC-dD-ug0">
-                                <rect key="frame" x="20" y="236" width="374" height="190"/>
+                                <rect key="frame" x="20" y="256.66666666666669" width="350" height="190"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o5O-h4-rpL" customClass="BorderButton" customModule="Team_Search" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="50"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="350" height="50"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.49588116500000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="PeD-su-VuU"/>
@@ -141,7 +140,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0SJ-7d-my9" customClass="BorderButton" customModule="Team_Search" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="70" width="374" height="50"/>
+                                        <rect key="frame" x="0.0" y="70" width="350" height="50"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.49588116500000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="Gh6-9A-A5V"/>
@@ -153,7 +152,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FtF-Sm-vw4" customClass="BorderButton" customModule="Team_Search" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="140" width="374" height="50"/>
+                                        <rect key="frame" x="0.0" y="140" width="350" height="50"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.49588116500000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="zfm-wQ-lav"/>
@@ -167,14 +166,14 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Si8-3l-fHU" customClass="BorderButton" customModule="Team_Search" customModuleProvider="target">
-                                <rect key="frame" x="20" y="792" width="374" height="50"/>
+                                <rect key="frame" x="20" y="740" width="350" height="50"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.49588116500000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="8oP-fb-Hx9"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="27"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Next">
+                                <state key="normal" title="NEXT">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
@@ -201,11 +200,107 @@
             </objects>
             <point key="canvasLocation" x="886" y="109"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="MCl-9o-w3F">
+            <objects>
+                <viewController id="JJv-3K-pVa" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="K2V-4Z-e92">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beginnerBaller" translatesAutoresizingMaskIntoConstraints="NO" id="4Th-Ch-CBr">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="RAr-Aq-jTg">
+                                <rect key="frame" x="95" y="53.999999999999986" width="200" height="172.66666666666663"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo2" translatesAutoresizingMaskIntoConstraints="NO" id="qBw-6A-Weu">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="85.666666666666671"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="SAg-ed-QFA"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am a:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ii-WC-xLf">
+                                        <rect key="frame" x="60.999999999999993" y="92.666666666666657" width="78.333333333333314" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="A7a-YC-2te"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="26"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="EKZ-5j-ad3">
+                                <rect key="frame" x="20" y="256.66666666666669" width="350" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ezi-JP-814" customClass="BorderButton" customModule="Team_Search" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="165" height="50"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.49588116500000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="cR8-t2-x7S"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="27"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Beginner">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="brM-d6-CLr" customClass="BorderButton" customModule="Team_Search" customModuleProvider="target">
+                                        <rect key="frame" x="185" y="0.0" width="165" height="50"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.49588116500000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="eDJ-Xx-MdS"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="27"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Pro">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1JM-wy-IAy" customClass="BorderButton" customModule="Team_Search" customModuleProvider="target">
+                                <rect key="frame" x="20" y="740" width="350" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.49588116500000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="DIk-tV-vQk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="27"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="FINISH">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Way-tz-qQM"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="RAr-Aq-jTg" firstAttribute="centerX" secondItem="K2V-4Z-e92" secondAttribute="centerX" id="9Op-xv-qob"/>
+                            <constraint firstItem="Way-tz-qQM" firstAttribute="trailing" secondItem="1JM-wy-IAy" secondAttribute="trailing" constant="20" id="DdU-iS-627"/>
+                            <constraint firstItem="RAr-Aq-jTg" firstAttribute="top" secondItem="Way-tz-qQM" secondAttribute="top" constant="10" id="IBm-K3-Hxf"/>
+                            <constraint firstItem="4Th-Ch-CBr" firstAttribute="leading" secondItem="Way-tz-qQM" secondAttribute="leading" id="JaX-Uu-Xa1"/>
+                            <constraint firstItem="Way-tz-qQM" firstAttribute="trailing" secondItem="EKZ-5j-ad3" secondAttribute="trailing" constant="20" id="KwJ-aO-Xnb"/>
+                            <constraint firstItem="EKZ-5j-ad3" firstAttribute="leading" secondItem="Way-tz-qQM" secondAttribute="leading" constant="20" id="NpK-7j-YHy"/>
+                            <constraint firstAttribute="bottom" secondItem="4Th-Ch-CBr" secondAttribute="bottom" id="OT9-bm-8FK"/>
+                            <constraint firstItem="Way-tz-qQM" firstAttribute="bottom" secondItem="1JM-wy-IAy" secondAttribute="bottom" constant="20" id="UrK-4c-yBa"/>
+                            <constraint firstItem="4Th-Ch-CBr" firstAttribute="top" secondItem="K2V-4Z-e92" secondAttribute="top" id="jaL-cI-JyG"/>
+                            <constraint firstItem="1JM-wy-IAy" firstAttribute="leading" secondItem="Way-tz-qQM" secondAttribute="leading" constant="20" id="kk5-ef-IeK"/>
+                            <constraint firstItem="Way-tz-qQM" firstAttribute="trailing" secondItem="4Th-Ch-CBr" secondAttribute="trailing" id="rrI-ml-xHq"/>
+                            <constraint firstItem="EKZ-5j-ad3" firstAttribute="top" secondItem="RAr-Aq-jTg" secondAttribute="bottom" constant="30" id="tDn-eX-WUD"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mdn-jF-rzp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1645" y="109"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="Logo2" width="351" height="65"/>
-        <image name="desiredLeague" width="410" height="729"/>
-        <image name="welcomeScreen" width="410" height="729"/>
+        <image name="Logo2" width="467.33334350585938" height="85.666664123535156"/>
+        <image name="beginnerBaller" width="414" height="736"/>
+        <image name="desiredLeague" width="414" height="736"/>
+        <image name="welcomeScreen" width="414" height="736"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
