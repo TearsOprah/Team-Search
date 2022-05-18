@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--WelcomeVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Team_Search" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="WelcomeVC" customModule="Team_Search" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -96,10 +96,10 @@
             </objects>
             <point key="canvasLocation" x="130.76923076923077" y="109.47867298578198"/>
         </scene>
-        <!--View Controller-->
+        <!--LeagueVC-->
         <scene sceneID="xSX-5G-bl1">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="61L-rW-raO" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="61L-rW-raO" customClass="LeagueVC" customModule="Team_Search" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Woh-Bl-2Tp">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -221,10 +221,10 @@
             </objects>
             <point key="canvasLocation" x="883.125" y="108.75"/>
         </scene>
-        <!--View Controller-->
+        <!--SkillVC-->
         <scene sceneID="MCl-9o-w3F">
             <objects>
-                <viewController id="JJv-3K-pVa" sceneMemberID="viewController">
+                <viewController id="JJv-3K-pVa" customClass="SkillVC" customModule="Team_Search" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="K2V-4Z-e92">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

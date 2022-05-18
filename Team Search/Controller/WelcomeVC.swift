@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WelcomeVC: UIViewController {
     
     @IBOutlet var backgroundImage: UIImageView!
     @IBOutlet var logo: UIImageView!
