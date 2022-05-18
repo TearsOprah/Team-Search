@@ -137,6 +137,9 @@
                                         <state key="normal" title="Mens">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="onMensTapped:" destination="61L-rW-raO" eventType="touchUpInside" id="R63-V0-SJP"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0SJ-7d-my9" customClass="BorderButton" customModule="Team_Search" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="70" width="388" height="50"/>
@@ -149,6 +152,9 @@
                                         <state key="normal" title="Womens">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="onWomensTapped:" destination="61L-rW-raO" eventType="touchUpInside" id="Idf-KT-7Kq"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FtF-Sm-vw4" customClass="BorderButton" customModule="Team_Search" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="140" width="388" height="50"/>
@@ -161,10 +167,13 @@
                                         <state key="normal" title="Co-ed">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="onCoedTapped:" destination="61L-rW-raO" eventType="touchUpInside" id="74B-iP-Syq"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Si8-3l-fHU" customClass="BorderButton" customModule="Team_Search" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Si8-3l-fHU" customClass="BorderButton" customModule="Team_Search" customModuleProvider="target">
                                 <rect key="frame" x="20" y="822" width="388" height="50"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.49588116500000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -215,6 +224,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="ScF-KK-6n0"/>
                     <connections>
+                        <outlet property="nextBtn" destination="Si8-3l-fHU" id="0qD-8n-bLp"/>
                         <segue destination="JJv-3K-pVa" kind="show" identifier="skillVCSegue" id="3gU-EK-MPJ"/>
                     </connections>
                 </viewController>
