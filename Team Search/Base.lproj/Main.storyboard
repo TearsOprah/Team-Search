@@ -87,10 +87,6 @@
                             <constraint firstItem="0Jg-km-ZTX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="xKn-sS-btE"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="backgroundImage" destination="ni3-2Y-xSp" id="bUH-kk-ieL"/>
-                        <outlet property="logo" destination="Kun-BM-dxa" id="pqI-bD-UrF"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -179,6 +175,9 @@
                                 <state key="normal" title="NEXT">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="onNextTapped:" destination="61L-rW-raO" eventType="touchUpInside" id="UsS-Cv-Gfz"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9CC-8c-4iH">
                                 <rect key="frame" x="16" y="54.000000000000007" width="38" height="85.666666666666686"/>
@@ -190,7 +189,7 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="nU0-A7-iH0" kind="unwind" unwindAction="unwindFromLeagueVCWithUnwindSegue:" id="yMY-y8-ksT"/>
+                                    <segue destination="nU0-A7-iH0" kind="unwind" identifier="" unwindAction="unwindFromLeagueVCWithUnwindSegue:" id="yMY-y8-ksT"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -215,6 +214,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ScF-KK-6n0"/>
+                    <connections>
+                        <segue destination="JJv-3K-pVa" kind="show" identifier="skillVCSegue" id="3gU-EK-MPJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IFl-0Z-pdO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="nU0-A7-iH0" userLabel="Exit" sceneMemberID="exit"/>
@@ -224,7 +226,7 @@
         <!--SkillVC-->
         <scene sceneID="MCl-9o-w3F">
             <objects>
-                <viewController id="JJv-3K-pVa" customClass="SkillVC" customModule="Team_Search" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="JJv-3K-pVa" customClass="SkillVC" customModule="Team_Search" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="K2V-4Z-e92">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -311,6 +313,7 @@
                             <constraint firstItem="EKZ-5j-ad3" firstAttribute="top" secondItem="RAr-Aq-jTg" secondAttribute="bottom" constant="30" id="tDn-eX-WUD"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="6cF-MZ-5gy"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mdn-jF-rzp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
